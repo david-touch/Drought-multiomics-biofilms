@@ -3,7 +3,7 @@
 This work was submitted to Microbiome in October 2025.
 
 ## Files description
-Run in order to make sure to have all necessary results. Please create folders called **Results** and **Figures** prior to any analyses.
+Run in order to make sure to have all necessary results. Please create folders called **Results** and **Figures**, nd unzip the files prior to any analyses.
 
 *Taxonomy_bac.R*: Code to generate Figure_1, Figure_S1 and File_S1.
 
