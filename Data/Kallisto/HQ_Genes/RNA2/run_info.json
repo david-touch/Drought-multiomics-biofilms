@@ -1,0 +1,14 @@
+{
+	"n_targets": 431574,
+	"n_bootstraps": 99,
+	"n_processed": 17982114,
+	"n_pseudoaligned": 1297965,
+	"n_unique": 1213216,
+	"p_pseudoaligned": 7.2,
+	"p_unique": 6.7,
+	"kallisto_version": "0.51.1",
+	"index_version": 13,
+	"k-mer length": 31,
+	"start_time": "Mon May 12 11:48:59 2025",
+	"call": "kallisto quant -i index_HQ_Genes -b 99 --threads 20 -o RNA2_HQ_Genes ../Coverm/RNA2_other_paired_fwd.fq.gz ../Coverm/RNA2_other_paired_rev.fq.gz"
+}

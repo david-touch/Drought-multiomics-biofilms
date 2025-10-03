@@ -1,0 +1,14 @@
+{
+	"n_targets": 4424,
+	"n_bootstraps": 99,
+	"n_processed": 4793773,
+	"n_pseudoaligned": 490105,
+	"n_unique": 437184,
+	"p_pseudoaligned": 10.2,
+	"p_unique": 9.1,
+	"kallisto_version": "0.51.1",
+	"index_version": 13,
+	"k-mer length": 31,
+	"start_time": "Tue Sep 23 16:48:53 2025",
+	"call": "kallisto quant -i All_virus/index_Virus -b 99 --threads 20 -o RNA15_Virus /work/river/Sentinel/RNA/sequences/Trimed/Sorted/RNA15_other_paired_fwd.fq.gz /work/river/Sentinel/RNA/sequences/Trimed/Sorted/RNA15_other_paired_rev.fq.gz"
+}
