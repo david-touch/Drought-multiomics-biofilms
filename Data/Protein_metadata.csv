@@ -1,0 +1,7 @@
+label,Time,Drought,condition,replicate,Period,Succession
+Sample07,8,B2,Before,1,2,33
+Sample08,8,B2,Before,2,2,33
+DT_250624_1305_Lumos_Sample09,8,B2,Before,3,2,33
+Sample10,9,A2,After,1,2,38
+Sample11,9,A2,After,2,2,38
+Sample12,9,A2,After,3,2,38
