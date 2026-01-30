@@ -1,6 +1,6 @@
 # Drought multiomics biofilms
 
-This work was submitted to Microbiome in October 2025.
+This work was published in 2026 in *Microbiome*. You can find the publication here: https://doi.org/10.1186/s40168-026-02336-6
 
 ## Files description
 Run in order to make sure to have all necessary results. Please create folders called **Results** and **Figures**, and unzip the files prior to any analyses.
