@@ -249,3 +249,14 @@ heatmap_func_pat_sign
 
 ggsave("Figures/FigureS14.pdf", heatmap_func_pat_sign, width = 9.1, height = 12)
 
+##Functional redundancy
+FR_df <- eggnog_results %>% 
+  left_join(MAGs_taxo) %>% 
+  filter(Phylum %in% c("Stramenopiles", "Cyanobacteriota")) %>% 
+  select(MAGs, KEGG_ko, Phylum) %>% 
+  separate_rows(KEGG_ko, sep = ",") %>%
+  mutate(KEGG_ko = str_remove(KEGG_ko, "^ko:")) %>% 
+  filter(KEGG_ko != "NA" & KEGG_ko != "-") %>% 
+  group_by(Phylum) %>% 
+  distinct(KEGG_ko, .keep_all = T)
+#File to upload in KEGG Mapper - Reconstruct: https://www.genome.jp/kegg/mapper/reconstruct.html
